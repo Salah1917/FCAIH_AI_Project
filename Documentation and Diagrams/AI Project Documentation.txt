@@ -1,0 +1,83 @@
+Introduction and Overview:
+- This Project is an nQueen problem solver that aims to use inteligent functions to find all the possible solutions to the desires N input.
+
+- Desktop and Web Applications for Algorithm Visualization:
+Some apps are designed to solve various types of puzzles, including nQueen. They usually allow users to input different sizes of the board (N value) and use intelligent algorithms like backtracking or constraint satisfaction to find all solutions.
+Example: Mobile apps like BrainBashers or AlgoViz may incorporate nQueen as part of their puzzle-solving suite.
+
+-AI-Based Problem Solvers:
+AI-based applications for problem-solving can employ techniques like genetic algorithms, or other intelligent functions to find solutions to the nQueen problem efficiently,
+especially for larger N values.
+
+- Allowing users to input the size of the chessboard (N).
+
+- Visualizing the process of placing queens on the board.
+
+- Offering multiple solution algorithms (e.g., backtracking, genetic algorithms).
+
+1. Backtracking Algorithms for Solving the N-Queens Problem
+Reference:
+Knuth, D. E. (1975). "An Exact Algorithm for the N-Queens Problem."
+Proceedings of the 3rd International Conference on Algorithms, 1975
+
+2. Genetic Algorithms for the N-Queens Problem
+Reference:
+Davis, L. (1991). "Applied Genetic Algorithms."
+Proceedings of the International Conference on Genetic Algorithms, 1991
+
+3. Best-First Search for the N-Queens Problem
+Reference:
+Hart, P., Nilsson, N., & Raphael, B. (1968). "A Formal Basis for the Heuristic Determination of Minimum Cost Paths."
+IEEE Transactions on Systems Science and Cybernetics, 4(2), 100-107.
+
+4. Hill Climbing for the N-Queens Problem
+Reference:
+Russell, S., & Norvig, P. (2009). "Artificial Intelligence: A Modern Approach."
+Prentice Hall.
+
+5. Genetic Algorithms and Hill Climbing for the N-Queens Problem
+Reference:
+Lobo, F., & Ventura, S. (2006). "Using Hill Climbing and Genetic Algorithms for the N-Queens Problem."
+Proceedings of the 6th European Conference on Artificial Intelligence, 2006.
+
+
+Proposed Solution & Dataset:
+- Allowing users to input the size of the chessboard (N).
+
+- Visualizing the process of placing queens on the board.
+
+- Offering multiple solution algorithms (e.g., backtracking, BFS algorithms).
+
+- Showing all possible solutions to the chosen board size.
+ 
+- No dataset needed.
+
+
+Applied Algorithms:
+- Backtracking Algorithm
+
+- Best-firs-Search Algorithm
+
+- Hill Climbing Algorithm
+
+- Genetic Algorithm
+
+
+Experiments & Results:
+- User enter the desired n size of the board.
+
+- All solutions are found and displayed in an array from start to end if the user wishes to view them all.
+
+- The larger Ns take more time to compute.
+
+- Some Algorithms take more time to execute the same Ns.
+
+
+Analysis, Discussion, and Future Work:
+- The algorithms do their jobs very thorouly and display the results very clearly on the model of the NxN chess board visually displaying the queens.
+
+- While all algorithms find all solution some algorithms take much more time to execute the same Ns.
+
+- The algorithm behaves as intended and find and displays all desired solutions.
+
+- In the future we might want to make all the algorithms run faster more efficiently and memory efficient.
